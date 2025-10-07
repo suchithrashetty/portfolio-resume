@@ -1,0 +1,62 @@
+body, h1, h2, p { 
+    margin: 0; 
+    padding: 0; 
+    } 
+    /* Global Styles */ 
+    body { 
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    } 
+    header { 
+    background-color: #333; 
+    color: #fff; 
+    text-align: center; 
+    padding: 1rem; 
+    } 
+    main { 
+    padding: 2rem; 
+    } 
+    .profile { 
+    display: flex; 
+    align-items: center; 
+    } 
+    .edu
+    {
+        display: flex;
+        margin-left: 30px;
+    }
+    #img
+    {
+        border-radius: 50%;
+        height:200px;
+        width:200px;  
+    }
+    .photo { 
+   
+    border-radius: 50%;
+    height:200px;
+    width:200px;
+    } 
+    FRONT END WEB DEVELOPMENT CS1102-1 Lab Manual  
+     
+    .photo img { 
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 50%; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    } 
+    .bio { 
+
+    margin-left: 30px;
+    } 
+    footer { 
+    text-align: center; 
+    padding: 1rem 0; 
+    background-color: #333; 
+    color: #fff; 
+    } 
+    /* Media Queries */ 
+    @media screen and (max-width: 768px) { 
+    .profile { 
+    flex-direction: column; 
+    }} 
